@@ -466,3 +466,12 @@ a{
         padding-bottom: 1050px;
     }
 }
+@media (min-width: 1300px){
+    .container1{
+        padding: 0px 400px 320px;
+    }
+    .musicPlayer{
+        width: 100%;
+
+    }
+}
