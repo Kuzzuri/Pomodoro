@@ -481,3 +481,15 @@ a{
         padding: 0px 450px 320px;
     }
 }
+@media (max-width: 330px) and (min-width: 290px){
+    .container1{
+        padding-top: 500px;
+        margin-top: 0;
+        transform: scale(50%);
+        position: relative;
+        bottom: 50em;
+        padding-left: 0;
+        padding-right: 4em;
+        margin-right: 24em;
+    }
+}
