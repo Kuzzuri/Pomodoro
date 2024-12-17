@@ -146,7 +146,7 @@ hr{
     transition: all 0.3s linear;
 }
 .japan{
-    background-image: url(images/url.png);
+    background-image: url(images/url.jpg);
     background-size: cover;
     z-index: 0;
     transition: all 0.3s linear;
