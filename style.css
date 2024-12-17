@@ -475,3 +475,8 @@ a{
 
     }
 }
+@media (min-width: 1500px){
+    .container1{
+        padding: 0px 450px 320px;
+    }
+}
