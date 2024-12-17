@@ -134,7 +134,7 @@ hr{
     transition: all 0.5s linear; 
 }
 .shire{
-    background-color: red;
+    background-image: url(images/img1.PNG);
     background-size: cover;
     z-index: 0;
     transition: all 0.3s linear;
