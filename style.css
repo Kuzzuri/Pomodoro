@@ -492,4 +492,9 @@ a{
         padding-right: 4em;
         margin-right: 31em;
     }
+    .playButtons{
+        position: relative;
+        left: 40rem;
+    }
 }
+
