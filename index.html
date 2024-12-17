@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enhance productivity with our Pomodoro Timer featuring ambient backgrounds and ambient music, Pomodoro Timer for study and focus.">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    data-purpose="Layout StyleSheet"
+    title="Web Awesome"
+    href="/css/app-wa-4605c815f1874757bc9ac33aa114fb0f.css?vsn=d"
+  >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-thin.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-light.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-thin.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-light.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-thin.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-light.css"
+    >
+
+</head>
+<body id="body">
+    <div class="container">
+        <div class="container1 placeholder" id="container1">
+            <div class="header">
+                <div class="titles">
+                <h1 id="title">Pomodoro Timer</h1>
+                <div class="buttonSwitch">
+                    <p id="switchText">Switch to ambient mode</p>
+                    <div class="buttonBackground"><button id="switch"><i class="fa-sharp-duotone fa-light fa-circle" style="--fa-primary-color: #89cbee; --fa-secondary-color: #ffffff;"></i></button></div>
+                </div>
+            </div>
+                <hr>
+            <div class="timerContainer" id="timeContainer">
+                <h1 id="sessionText" class="studySession">Study Session</h1>
+                <button id="shuffleButton"><i class="fa-solid fa-shuffle"></i></button>
+                <div class="selection" id="selection"><ul>
+                  <button id="button1">Snowy day in Japan</button><br>
+                  <button id="button2">2am from the sky</button><br>
+                  <button id="button3">Snowy streets of Hogwarts</button><br>
+                  <button id="button4">Rivers of Rivendell</button><br>
+                  <button id="button5">Village of Vikings</button><br>
+                  <button id="button6">Shadows from Elden Ring</button><br>
+                  <button id="button7">Sunrise from shire</button><br>
+                  <button id="button8">Cabin in the woods</button>
+                </ul></div>
+                <h1 id="time">25:00</h1>
+                <div class="timerButtons">
+                    <button id="start">Start</button>
+                    <button id="pause">Pause</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="musicPlayer" id="musicPlayer">
+          <div class="playButtons">
+            <i class="fa-solid fa-backward-step fa-lg" style="color: #e4e4e4;" id="backwardBtn"></i>
+            <i class="fa-sharp-duotone fa-solid fa-circle-play fa-2xl" style="--fa-primary-color: #000000; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 1;" id="pauseBtn"></i>
+            <i class="fa-solid fa-forward-step fa-lg" style="color: #e4e4e4;" id="forwardBtn"></i>
+            <img src="images/p1.jpg" id="p1">
+            <p id="musicPlayerText">Now</p>
+            <p id="musicPlayerTextTwo">Playing:</p>
+            <p id="songName"></p>
+            <p id="contactText">For requests contact me at: <a href="mailto:kuzurim8@gmail.com">kuzurim8@gmail.com</a></p>
+          </div>
+          </div>
+        <div class="container2">
+          <div class="page1">
+            <h1>What is Pomodoro Technique</h1>
+            <p>The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato, after the tomato-shaped kitchen timer Cirillo used as a university student.</p>
+          </div>
+          <div class="page2">
+            <h1>How to use Pomodoro Technique</h1>
+            <ol>
+              <li>Decide on the task to be done</li>
+              <li>Start the Pomodoro timer (25 minutes)</li>
+              <li>Work on the task</li>
+              <li>End work when the timer ends and take a short break (5 minutes)</li>
+              <li>Go back to Step 2 and repeat until you complete four pomodori.</li>
+              <li>After four pomodori are done, take a long break (typically 20 to 30 minutes) instead of a short break. Once the long break is finished, return to Step 2.</li>
+          </ol>
+          <div class="page3">
+            <h1>Benefits of Pomodoro Technique</h1>
+            <p>The Pomodoro Timer is a productivity method that helps individuals and teams work more efficiently. By incorporating this technique, you can optimize your workflow, reduce stress, and achieve better results in less time. Below are the key benefits of using the Pomodoro Timer:<br>
+
+              1. Improved Focus and Concentration
+              
+              The Pomodoro technique encourages short, intense work sessions followed by breaks. This structure helps eliminate distractions, allowing you to stay fully focused on your tasks.<br>
+              
+              2. Better Time Management
+              
+              Breaking work into manageable intervals ensures that you make steady progress throughout the day. With the Pomodoro Timer, you can track your productivity and allocate time more effectively.<br>
+              
+              3. Enhanced Productivity
+              
+              By working in bursts of concentrated effort, you can achieve more in less time. The frequent breaks prevent burnout, ensuring sustained energy levels throughout the day.<br>
+              
+              4. Reduced Procrastination
+              
+              The Pomodoro technique makes large tasks feel less overwhelming. Knowing you only need to work for a set period encourages you to start tasks without delay.<br>
+              
+              5. Stress Reduction
+              
+              The regular breaks built into the Pomodoro Timer allow you to relax and recharge. This reduces the stress associated with long, uninterrupted work hours.<br>
+              
+              6. Improved Work-Life Balance
+              
+              The Pomodoro Timer helps you set boundaries between work and relaxation, fostering a healthier balance in your daily routine.<br>
+              
+              7. Boosted Creativity and Problem-Solving
+              
+              Frequent breaks stimulate creative thinking, making it easier to find innovative solutions to complex problems.<br>
+              
+              8. Increased Task Completion Rates
+              
+              The sense of urgency created by timed sessions motivates you to finish tasks efficiently. This leads to higher completion rates and a greater sense of accomplishment.
+              
+              By incorporating the Pomodoro Timer into your daily routine, you can unlock your full potential and achieve your goals with less effort. Start using this proven technique today to take control of your time and enhance your productivity.</p>
+              <p id="terms"><a href="terms.html">Terms</a> - <a href="privacy.html">Privacy/Policy</a></p>
+          </div>
+          </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
